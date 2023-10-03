@@ -1,0 +1,225 @@
+
+
+figure, figcaption {
+  background-color: rgba(128, 234, 224, 0.75) !important;
+  color: black; /* Set the text color to black for readability */
+  padding: 15px; /* Add padding to provide some space between text and background */
+}
+
+
+.jumbotron{
+/*    margin-top: 10px;
+*/    background-image: url('../images/web.jpg');
+      background-attachment: fixed !important;
+      background-size: cover;
+      height: 90vh;
+      margin-bottom: 0;
+}
+
+.gradient-background {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  border: 1px solid #000; /* Add a border for visibility */
+}
+
+.gradient-background figcaption {
+  text-align: center;
+  color: black; /* Change the text color to black */
+  font-weight: 200;
+  font-size: 25px;
+  font-family: Lekton, 'Cabin', 'Inconsolata';
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
+  padding: 10px; /* Add padding for better readability */
+}
+body{
+
+    padding: 0;	
+    background: #E6EFE9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+img{
+    width: 100%;
+}
+
+a i:hover{
+	color:red;
+}
+
+.text-center {
+    color: black;
+    font-weight: 200em;
+    font-size: 25px;
+    font-family: Lekton, 'Cabin', 'Inconsolata';
+    text-align: center; /* Add this line to center the text horizontally */
+}
+
+
+.contact_info{
+    display: inline-block;
+}
+
+.contact_icons{
+    margin-left: 6%;
+
+}
+
+.heading{
+    padding: 20px;
+    font-weight: bold;
+    margin-top: auto;
+    font-weight: 200em !important;
+    font-size: 30px;
+
+
+}
+
+
+
+.icon{
+    padding: 10px 10px 10px 10px;
+}
+
+#copyright{
+    color: #ffffff;
+}
+
+
+
+.circle {
+  width: 450px; /* Adjust the size as needed (3 times the previous size) */
+  height: 450px; /* Adjust the size as needed (3 times the previous size) */
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ /*.profile-image:hover {
+     -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.2);
+     -webkit-transition: -webkit-transform .3s ease-out;
+     -webkit-transition: transform .3s ease-out;
+     -moz-transition: transform .3s ease-out;
+     transition: transform .3s ease-out;
+     overflow: hidden;
+ }*/
+
+.name{
+    margin-top: 15px;
+
+}
+
+#divisor{
+
+    height:16px;
+    background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+
+}
+
+#divisor-w{
+    color: white;
+    height:7px;
+    background: white repeat-x 0 0;
+    border: 0;
+
+}
+
+#info{
+    margin-top: auto;
+}
+
+#contact_footer{
+    height:auto;
+}
+
+.copyright{
+    
+    margin: 20px -10px 0px -10px !important;
+	
+	background-color: #85C7DE;
+
+}
+
+.img-fluid{
+    
+    height: 320px;
+    overflow: hidden;
+}
+
+.match-my-cols{
+    background-color: #E0E1E9;
+    margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 410px) {
+   p{
+    font-size: 16px !important;
+   }
+
+   .contact_info{
+    font-size: 20px !important;
+   }
+}
+
+
+@media screen and (max-width: 321px) {
+    .contact_info{
+        font-size: 17px !important;
+   }
+}
+
+@media screen and (max-width: 412px) {
+    .jumbotron{
+        height: 85vh;
+    }
+}
+
+
+/*@media screen and (min-width: 1023px) {
+
+p, .heading{
+    font-size: 35px !important;
+}
+.contact_info{
+    font-size: inherit !important;
+}
+
+}*/
+
+
+
+/*@media screen and (min-width: 710px) {
+
+.contact_info{
+    font-size: 40px !important;
+   }
+
+}*/
+
+@media screen and (min-width: 1020px) {
+
+    #footer_contact{
+        align-content: center !important;
+    }
+}
+
